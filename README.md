@@ -154,6 +154,8 @@ sovereign-contracts/
 | Phase 2–5b | Done (gates + engineered layout + BuildManifestAnchor) |
 | Phase 6 | **Done — Assurance** (coverage · mutation · env · ops dry path; see `AGENTS.md`) |
 
+Built by Marcus Richards, directing AI coding agents.
+
 ## License
 
 MIT. See [LICENSE](LICENSE). Doctrine: see `AGENTS.md`. Stay local, prefer `.venv`, and ship diffs you can defend.
