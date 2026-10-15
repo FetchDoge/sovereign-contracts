@@ -2,7 +2,7 @@
 
 **Runs an auditable compile, test, coverage and deploy path for Solidity locally, gated by Python checks. No cloud accounts.**
 
-[![CI](https://github.com/marsojuji-cmyk/sovereign-contracts/actions/workflows/ci.yml/badge.svg)](https://github.com/marsojuji-cmyk/sovereign-contracts/actions/workflows/ci.yml)
+[![CI](https://github.com/FetchDoge/sovereign-contracts/actions/workflows/ci.yml/badge.svg)](https://github.com/FetchDoge/sovereign-contracts/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node 22](https://img.shields.io/badge/node-22-339933.svg)](.github/workflows/ci.yml)
 
@@ -29,7 +29,7 @@ What the test suite enforces on every CI run:
 ## Quickstart
 
 ```bash
-git clone https://github.com/marsojuji-cmyk/sovereign-contracts && cd sovereign-contracts
+git clone https://github.com/FetchDoge/sovereign-contracts && cd sovereign-contracts
 npm ci                    # Node 22 (CI version)
 npx hardhat test          # 40 tests: unit, safety and invariants
 make setup-python         # one-time Python venv
