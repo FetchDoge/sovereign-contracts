@@ -53,7 +53,7 @@ secure_pipeline/
 │   ├── README.md             # Doc index
 │   ├── ops/                  # NETWORK_OPS · MUTATION_SMOKE
 │   ├── security/             # THREAT_MODELS · STATIC_ANALYSIS
-│   ├── doctrine/             # Grok Build · LIBRARIAN · frames
+│   ├── doctrine/             # Build protocol · LIBRARIAN · frames
 │   └── nexus-sov/            # Hygiene notes (no recovery material)
 ├── data/ · logs/ · reports/  # Local runtime only (gitignored)
 └── artifacts/ · cache/       # Hardhat build outputs (gitignored)
@@ -145,7 +145,7 @@ Print this map anytime: `make tree`.
 - Secret scan in `scripts/gates/check_env.sh` fails on `0x`+64-hex patterns under `contracts/`, `scripts/`, `src/`.
 - Hardhat already caches compiles via `cache/solidity-files-cache.json` — do not reimplement.
 
-## Grok Build activation (paste)
+## Coding-agent activation (paste)
 ```
 Plan: Work inside secure_pipeline using AGENTS.md ethos.
 Path: /path/to/sovereign-contracts (your local clone).

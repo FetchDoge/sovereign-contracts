@@ -28,7 +28,7 @@ help:
 	@echo "  make deploy-local        Ignition → SecureVault (hardhat)"
 	@echo "  make deploy-accounting   Ignition → AccountingVault (hardhat)"
 	@echo "  make deploy-manifest     Ignition → BuildManifestAnchor (hardhat)"
-	@echo "  make manifest-hash       SHA-256 of canonical Grok Build doc bundle"
+	@echo "  make manifest-hash       SHA-256 of canonical build-protocol doc bundle"
 	@echo "  make anchor-manifest-local  Deploy + anchor bundle on current network"
 	@echo "  make sepolia-dry-run     Offline env + local Ignition; optional RPC probe"
 	@echo "  make tree                Print engineered layout (Grok map)"
