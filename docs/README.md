@@ -16,7 +16,7 @@ Local-first docs for **secure_pipeline**. Prefer this map over hunting filenames
 | [security/THREAT_MODELS.md](security/THREAT_MODELS.md) | Vault threat boundaries (owner-custody vs pull/credit) |
 | [security/STATIC_ANALYSIS.md](security/STATIC_ANALYSIS.md) | Slither install, gate, accepted findings |
 
-## Doctrine (Grok Build / build law)
+## Doctrine (build protocol / build law)
 
 | Doc | When to read |
 |-----|----------------|

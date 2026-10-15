@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Offline SHA-256 of canonical Grok Build / LIBRARIAN bundle (stdlib only)."""
+"""Offline SHA-256 of canonical build-protocol / LIBRARIAN bundle (stdlib only)."""
 from __future__ import annotations
 
 import hashlib

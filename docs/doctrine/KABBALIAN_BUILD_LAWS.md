@@ -1,7 +1,7 @@
 # Kabbalian build laws (engineering companion)
 
 **Status:** v1 — maps classical Kabbalistic structure to `secure_pipeline` gates.  
-**Pairs with:** Grok Build Instructions v1 (internal; not included in this repo), `docs/doctrine/BUILD_FRAME_NEXUS_PIPELINE.md`, `AGENTS.md`.  
+**Pairs with:** Build Protocol v1 (internal; not included in this repo), `docs/doctrine/BUILD_FRAME_NEXUS_PIPELINE.md`, `AGENTS.md`.  
 **Not a substitute for:** tests, Slither, or `make check` / `make check-full`.
 
 ---
@@ -10,7 +10,7 @@
 
 | Field | Value |
 |-------|--------|
-| Audience | Builder, auditors, Grok Build sessions |
+| Audience | Builder, auditors, coding-agent sessions |
 | In scope | Mindset + laws linking Four Worlds, Gevurah/Malkhut, Sephirot checklist to repo commands |
 | Out of scope | Theological claims; replacing empirical validation; Nexus `secrets/` material |
 | Related artifacts | `docs/doctrine/LIBRARIAN_PROTOCOL.md`, `docs/security/THREAT_MODELS.md`, `Makefile` |
@@ -31,7 +31,7 @@
 | **WHO** | Sovereign builder; future auditors and deploy operators |
 | **WHAT** | This doc + `AGENTS.md` pointer; no contract changes |
 | **WHEN** | Active now for every non-trivial session; revise when Phase 6+ adds deploy gates |
-| **WHERE** | `secure_pipeline` repo; optional mirror in `~/.grok/docs/` if you copy manually |
+| **WHERE** | `secure_pipeline` repo; optional mirror in `<agent-config>/docs/` if you copy manually |
 | **WHY** | Philosophy without Malkhut is klippah; shared vocabulary speeds Commander's Intent |
 
 ### Commander's Intent
@@ -47,11 +47,11 @@
 
 | Source | Role | Note |
 |--------|------|------|
-| Grok Build v1 (internal; not included in this repo) | Primary for Five Lenses, validate-against-reality | Nexus.sov import |
+| Build Protocol v1 (internal; not included in this repo) | Primary for Five Lenses, validate-against-reality | Nexus.sov import |
 | `docs/doctrine/BUILD_FRAME_NEXUS_PIPELINE.md` | Primary for pipeline ↔ Nexus bridge | Applied frame |
 | `AGENTS.md` | Primary for gate commands | Phase 5 table |
 | Classical Kabbalah (Four Worlds, Tzimtzum, Tikkun, PaRDeS) | **Secondary** — cross-domain synthesis | Engineering mapping, not dogma |
-| `~/Downloads/.../Nexus.sov/` | Searched for *kabal* / Kabbalah terms | **No matches**; see §5.4 |
+| `<upstream pack>/Nexus.sov/` | Searched for *kabal* / Kabbalah terms | **No matches**; see §5.4 |
 
 **Frontier:** A future Nexus.sov “Kabalian” or “Project star sheild” spec (folder exists but is empty in listing) would become primary for terminology alignment.
 
@@ -109,7 +109,7 @@ Construct and maintain a **local-first EVM vault pipeline** whose custody and ac
 
 | World | Pipeline stage | Where it lives in repo | Status |
 |-------|----------------|------------------------|--------|
-| **Atzilut** | Prime Objective, WHO/WHY, threat split | Grok Build Instructions v1 (internal; not included), `BUILD_FRAME_NEXUS_PIPELINE.md`, `THREAT_MODELS.md`, session Commander's Intent | **Partial skip:** small edits often omit explicit Atzilut paragraph |
+| **Atzilut** | Prime Objective, WHO/WHY, threat split | Build Protocol v1 (internal; not included), `BUILD_FRAME_NEXUS_PIPELINE.md`, `THREAT_MODELS.md`, session Commander's Intent | **Partial skip:** small edits often omit explicit Atzilut paragraph |
 | **Beriah** | Blueprints, modules, LIBRARIAN reports | `ignition/`, design docs, `LIBRARIAN_PROTOCOL.md` | **Partial skip:** host-only script tweaks without doc/threat note |
 | **Yetzirah** | Code + tests as formed vessels | `contracts/`, `test/`, `scripts/` | **Strong** — default builder focus |
 | **Assiah** | Manifest proof | `make check`, `check-full`, `data/health.json`, deploy targets | **Partial skip:** `make test` without preflight; `check-full` without coverage when claiming 100%; deploy without `env-check` |
@@ -128,7 +128,7 @@ Construct and maintain a **local-first EVM vault pipeline** whose custody and ac
 
 ### 5.3 Sephirot checklist (quick architecture pass)
 
-Before merge, walk **Gevurah → Yesod → Malkhut**: what is forbidden, what is the stable interface, what commands prove the kingdom. Full Sephirot table lives in session teaching; see `BUILD_FRAME` cross-domain map for Grok Build ↔ gates.
+Before merge, walk **Gevurah → Yesod → Malkhut**: what is forbidden, what is the stable interface, what commands prove the kingdom. Full Sephirot table lives in session teaching; see `BUILD_FRAME` cross-domain map for the coding agent ↔ gates.
 
 ---
 
@@ -138,7 +138,7 @@ Before merge, walk **Gevurah → Yesod → Malkhut**: what is forbidden, what is
 |----------|--------|
 | `secure_pipeline` (ripgrep `kabal*`) | No matches |
 | `~/Downloads/perplexity/commet/Comet/Nexus.sov` (ripgrep) | No matches |
-| Nexus tree | `Grok Build instructions v.1/`, empty `Project star sheild/`, `Warp 1 (TBD)/`, `secrets/` (out of band) |
+| Nexus tree | `Build Protocol v1/`, empty `Project star sheild/`, `Warp 1 (TBD)/`, `secrets/` (out of band) |
 
 **Conclusion:** “Kabalian” in this repo is **generic Kabbalah-inspired engineering law** until a Nexus document is added. If you add a spec under Nexus.sov, update §3 source ledger and reconcile terms here.
 
@@ -189,7 +189,7 @@ Before merge, walk **Gevurah → Yesod → Malkhut**: what is forbidden, what is
 1. Choose Phase 6 path (`BUILD_FRAME`: Sepolia dry-run vs new vault vs ops doc) and add **Atzilut paragraph** to that effort.
 2. On next `contracts/` diff, run `make check-full` and record in PR notes (Malkhut).
 3. If Nexus “star shield” or Warp material arrives, import provenance to §3 and align Gevurah rules.
-4. Optional: copy summary to `~/.grok/docs/kabbalian-build-laws.md` for global Grok sessions.
+4. Optional: copy summary to `<agent-config>/docs/kabbalian-build-laws.md` for global agent sessions.
 
 ---
 

@@ -6,7 +6,7 @@
 
 | Material | Path |
 |----------|------|
-| Grok Build Instructions v1 | internal; not included in this repo |
+| Build Protocol v1 | internal; not included in this repo |
 | LIBRARIAN Protocol | `docs/doctrine/LIBRARIAN_PROTOCOL.md` |
 | Applied build frame | `docs/doctrine/BUILD_FRAME_NEXUS_PIPELINE.md` |
 | On-chain manifest anchor | `contracts/BuildManifestAnchor.sol` |
@@ -19,7 +19,7 @@ Default location on this host:
 
 | File | Handling |
 |------|----------|
-| `Grok Build instructions v.1/grok-build-instructions.md` | **Superseded** by the internal Grok Build Instructions v1 (not included in this repo) — keep upstream as archive or delete after backup |
+| `Build Protocol v1/grok-build-instructions.md` | **Superseded** by the internal Build Protocol v1 (not included in this repo) — keep upstream as archive or delete after backup |
 | `secrets/proton-recovery-phrase.pdf` | **Never** commit, upload, or paste into chat. Host layout: `Nexus.sov/secrets/` (chmod 700). |
 
 ## Suggested layout (Downloads)
@@ -27,7 +27,7 @@ Default location on this host:
 ```
 Nexus.sov/
   README.md              ← hygiene index (written by pipeline hygiene pass)
-  Grok Build instructions v.1/   ← optional archive
+  Build Protocol v1/   ← optional archive
   secrets/               ← optional: recovery PDF only, chmod 700, not in cloud sync
 ```
 

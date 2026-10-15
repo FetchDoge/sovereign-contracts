@@ -1,7 +1,7 @@
 # LIBRARIAN Protocol (v1 companion)
 
-**Status:** Defined here because Grok Build Instructions v1.0 references this structure but does not ship a separate spec.  
-**Pairs with:** Grok Build Instructions v1 (Build Protocol §6; internal, not included in this repo) and project `AGENTS.md` (Commander's Intent).  
+**Status:** Defined here because Build Protocol v1 references this structure but does not ship a separate spec.  
+**Pairs with:** Build Protocol v1 (Build Protocol §6; internal, not included in this repo) and project `AGENTS.md` (Commander's Intent).  
 **Use when:** Any document or report is a *deliverable* (threat model, network ops, design memo, portfolio evidence).
 
 ---
@@ -53,7 +53,7 @@ When the artifact is code or ops, add under §2:
 - **Key Constraints / Acceptable Risk** — bullets  
 - **Implied Tasks** — bullets  
 
-(Aligned with `~/.grok/skills/grok-ethos/SKILL.md`.)
+(Aligned with `<agent-config>/skills/ethos/SKILL.md`.)
 
 ---
 
@@ -131,4 +131,4 @@ For design decisions, add a subsection under §5:
 
 ## SO WHAT
 
-LIBRARIAN is the **anti-entropy layer** for written builds: the same discipline as tests for code. Grok Build v1 tells you *to* structure reports; this file tells you *how*.
+LIBRARIAN is the **anti-entropy layer** for written builds: the same discipline as tests for code. Build Protocol v1 tells you *to* structure reports; this file tells you *how*.
