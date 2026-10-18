@@ -18,7 +18,7 @@
     "tree": "make tree"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-ethers": "^4.0.0",
+    "@nomicfoundation/hardhat-ethers": "^4.2.1",
     "@nomicfoundation/hardhat-ethers-chai-matchers": "^3.0.12",
     "@nomicfoundation/hardhat-ignition": "^3.1.8",
     "@nomicfoundation/hardhat-ignition-ethers": "^3.0.0",
